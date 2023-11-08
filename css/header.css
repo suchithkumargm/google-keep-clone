@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header .brand{
+    display: flex;
+    align-items: center;
+}
+
+header .brand img{
+    width: 2rem;
+}
+
+header p{
+    font-size: 2rem;
+    color: rgb(70, 70, 70);
+}
+
+header .brand p{
+    padding-left: 1rem;
+}
+
+hr{
+    margin: 0;
+}
