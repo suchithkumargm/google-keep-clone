@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/notes.css">
     <link rel="stylesheet" href="./css/addNote.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -26,6 +27,18 @@
     <hr>
 
     <main>
+
+        <input type="checkbox" id="sidebar-checkbox" />
+        <label for="sidebar-checkbox" id="sidebar-hamburger"><img src="./images/hamburger.svg" alt="hamburger"></label>
+        <label for="sidebar-checkbox" id="sidebar-close"><img src="./images/close.svg" alt="hamburger"></label>
+        <div class="sidebar">
+            <ul>
+                <li>Note</li>
+                <li>To Do</li>
+                <li><a>Logout</a></li>
+            </ul>
+        </div>
+
         <div class="add-note">
             <input type="checkbox" id="note-expand-checkbox" />
             <label for="note-expand-checkbox"></label>
@@ -38,34 +51,43 @@
             <div class="note">
                 <h5>Title of Note</h5>
                 <img src="./images/delete.svg" alt="delete">
-                <p>content of note Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure pluta et assumenda error reiciendis accusantium. Eveniet, atque tempora?</p>
+                <p>content of note Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure pluta et assumenda
+                    error reiciendis accusantium. Eveniet, atque tempora?</p>
             </div>
             <div class="note">
                 <h5>Title of Note</h5>
                 <img src="./images/delete.svg" alt="delete">
-                <p>content of note Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ir totam soluta et assumenda error reiciendis accusantium. Eveniet, atque tempora?</p>
+                <p>content of note Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ir totam soluta et
+                    assumenda error reiciendis accusantium. Eveniet, atque tempora?</p>
             </div>
             <div class="note">
                 <h5>Title of Note</h5>
                 <img src="./images/delete.svg" alt="delete">
-                <p>content of note Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure pta et assumenda error reiciendis accusantium. Eveniet, atque tempora?</p>
+                <p>content of note Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure pta et assumenda error
+                    reiciendis accusantium. Eveniet, atque tempora?</p>
             </div>
             <div class="note">
                 <h5>Title of Note</h5>
                 <img src="./images/delete.svg" alt="delete">
-                <p>content of note Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure pariatur totam soluta et assumenda error reiciendis accusantium. ontent of note Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure pariatur totam soluta et assumenda error reiciendis accusantium. Eveniet, atque tempora?</p>
+                <p>content of note Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure pariatur totam soluta
+                    et assumenda error reiciendis accusantium. ontent of note Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Iure pariatur totam soluta et assumenda error reiciendis accusantium. Eveniet,
+                    atque tempora?</p>
             </div>
             <div class="note">
                 <h5>Title of Note</h5>
                 <img src="./images/delete.svg" alt="delete">
-                <p>content of note Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure pariatur totam soluta et assumenda error reiciendis accusantium. ontent of note Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure pariatur totam soluta et assumenda error reiciendis accusantium. Eveniet, atque tempora?</p>
+                <p>content of note Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure pariatur totam soluta
+                    et assumenda error reiciendis accusantium. ontent of note Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Iure pariatur totam soluta et assumenda error reiciendis accusantium. Eveniet,
+                    atque tempora?</p>
             </div>
             <div class="note">
                 <h5>Title of Note</h5>
                 <img src="./images/delete.svg" alt="delete">
                 <p>content of note Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iurepora?</p>
             </div>
-           
+
         </div>
     </main>
 </body>
